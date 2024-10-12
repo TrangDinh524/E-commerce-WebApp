@@ -1,0 +1,48 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+text-align: center;
+}
+
+.section{
+	min-height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), URL("product-image/galaxy.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.hero{
+	width:80%;
+	margin:auto;
+	padding:30px 0px;
+}
+article h1{
+	font-size: 50px;
+	font-weight:500;
+	text-transform: uppercase;
+	color:#fcba03;
+}
+article h1::after{
+	content: "";
+	height: 3px;
+	width: 225px;
+	background-color: #fcba03;
+	display: block;
+	margin: auto;
+}
+content{
+	font-size: 50px;
+	color:#ccc;
+	line-height:1.5;
+}
+article h5{
+	font-size: 20px;
+	color:#ccc;
+	line-height:1.5;
+}
+article p{
+	font-size: 18px;
+	color:#fff;
+}
